@@ -21,20 +21,19 @@ const SummeryTextEnd = `
 
 export default function Section4() {
     return <>
-        <GenericSection className="bg-[var(--main-color)]">
+        <GenericSection className="bg-[var(--main-color)]" id="section-5">
             <TextArea>
                 <img src={gift} width={75} height={75} className=" mx-auto" />
-                <b className="text-[22px]">{SummeryTextHead}</b>
+                {/* <b className="text-[22px]">{SummeryTextHead}</b> */}
                 <p className="text-[18px]">{SummeryText}</p>
                 <hr className="my-4" />
-                <b>לסיכום מה צריך לדעת?</b>
+                <b id="section-6">לסיכום מה צריך לדעת?</b>
                 <p className="text-[18px]">{SummeryTextEnd}</p>
             </TextArea>
         </GenericSection>
         <TwoPhoto
             p1={moran4}
             p2={moran2}
-            centeredOne
             gridColumns={'60% 40%'}
             animateIn={false}
             overlay="rgba(0,0,0,0.25)"

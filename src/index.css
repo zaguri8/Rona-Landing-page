@@ -32,6 +32,10 @@
   src: url(./assets/fonts/DanaYadAlefAlefAlef-Normal.otf) format("opentype");
 }
 
+a {
+  transition: color .3s linear;
+}
+
 *  {
   font-family:OpenSans;
   font-size:20px;
@@ -46,6 +50,7 @@
   --main-pink: #F2C7CC;
   --second-pink: #ee9ca7;
   --main-brown:#D0B8AC;
+  --main-brown-strong:#997462;
   --second-brown:#F3D8C7;
   --main-white:#FBFEFB;
 
@@ -71,6 +76,7 @@ a:hover {
 html {
   height:100%;
   background: var(--main-color);
+  scroll-behavior: smooth;
 }
 body {
   height:100%;
@@ -199,5 +205,8 @@ button:focus-visible {
  @media only screen and (min-width:900px) {
   .reactive-text {
     min-height:250px !important;
+  }
+  .image_1 {
+    min-height:700px;
   }
  }

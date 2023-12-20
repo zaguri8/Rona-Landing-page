@@ -34,14 +34,18 @@ const DayAfter = `
 const Etc = `
 את מוזמנת לשלוח לי הודעה ,אני זמינה בשבילך באופן פרטי גם לאחר הקורס.
  . בסיום הקורס אעביר רשימה מסודרת עבור התיקים שצריך לארגן לחדר לידה ולאשפוז לך ולתינוק.`
+
+const Title1 = `במה נתמקד ?`
+const Title2 = `מה תלמדי בקורס ?`
 export default function Section2() {
     return <GenericSection className=" bg-[var(--second-brown)] flex items-center justify-center">
         <TextArea className="text-[17px]">
-            <h2 className="text-[2rem] pl-[.5rem] pb-6"> מה תלמדי בקורס  </h2>
-            <TextArea className="font-[Michal] text-[24px] lg:w-full md:w-full sm:w-full w-full bg-[#F2C7CC] py-4 px-2 rounded-md shadow-image">
+            <h2 className="text-[2rem] pl-[.5rem] pb-6" id="section-2"> {Title1} </h2>
+            <TextArea className=" text-[18px] lg:w-full md:w-full sm:w-full w-full bg-[#F2C7CC] py-4 px-2 rounded-md shadow-image">
                 {TextFirst}
             </TextArea>
             <br />
+            <h2 className="text-[2rem] pl-[.5rem] pb-6" id="section-3"> {Title2} </h2>
             <b className="text-[1.25rem] pl-[.5rem]">רגע לפני</b>
             {RegaLifnei}
             <br />
