@@ -2,6 +2,8 @@ import TextArea from "../TextArea"
 import GenericSection from "./GenericSection"
 import gift from '../assets/images/gifty.png'
 import moran4 from '../assets/images/moran_3.jpeg'
+import moran7 from '../assets/images/moran_8_showcase.jpeg'
+
 import moran2 from '../assets/images/certifiicate.jpeg'
 
 import { TwoPhoto } from "../App"
@@ -34,9 +36,10 @@ export default function Section4() {
         <TwoPhoto
             p1={moran4}
             p2={moran2}
-            gridColumns={'60% 40%'}
+            p3={moran7}
+            gridColumns={'33% 33% 33%'}
             animateIn={false}
-            overlay="rgba(0,0,0,0.25)"
+            overlay="rgba(0,0,0,0.55)"
             speed={0.5}
             className="bg-[#F3D8C7]" />
     </>

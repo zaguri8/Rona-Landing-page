@@ -16,7 +16,7 @@ export default function Topbar() {
         }
     }, [open])
 
-    return <motion.nav ref={scope} className="flex flex-col min-h-[40px] h-full md:h-fit justify-between items-center fixed w-full z-[10000] md:flex-row" >
+    return <motion.nav ref={scope} className={`flex flex-col min-h-[40px] md:h-fit justify-between items-center fixed w-full z-[10000] md:flex-row ` + (open ? 'h-full' : 'h-fit')} >
         <motion.div className="relative rounded-md w-fit min-w-[230px] h-full md:h-fit p-2 min-h-[52px] grid ml-auto md:w-[98%] md:m-2 md:ml-3" id="nav-items-container">
             <motion.div id="nav-items" className="w-fit flex flex-col gap-2 md:w-full md:grid md:grid-cols-5 mt-2  md:my-auto md:gap-0 ">
                 <a onClick={() => window.innerWidth < 700 && setOpen(false)} className=" text-[black] text-[16px] pr-[48px] md:pr-[55px] hover:text-[black] block w-full " href="#section-1">קצת עליי</a>

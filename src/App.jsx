@@ -17,13 +17,15 @@ import Section4 from './sections/Section4'
 import Topbar from './components/Topbar'
 
 
-export const TwoPhoto = ({ p1, p2, centeredOne = false, centeredTwo = false, animateIn = 'fadeIn', speed = 1, className = "", gridColumns, overlay = 'rgba(144,57,99,0.3)' }) => {
+export const TwoPhoto = ({ p1, p2, centeredOne = false, centeredTwo = false, animateIn = 'fadeIn', speed = 1, className = "", gridColumns, overlay = 'transparent', p3 }) => {
 
   if (!animateIn) {
     return <div className={'relative grid grid-cols-2 ' + className} style={gridColumns ? { gridTemplateColumns: gridColumns } : {}}>
       <img src={p1} className={'image_1 ' + (centeredOne ? 'centered_image' : '')} />
       <div className={`absolute top-0 left-0 bottom-0 right-0`} />
       <img src={p2} className={'image_1 ' + (centeredTwo ? 'centered_image' : '')} />
+      {p3 && <img src={p3} className={'image_1 ' + (centeredTwo ? 'centered_image' : '')} />}
+
     </div>
   }
   return <div className={'relative grid grid-cols-2 ' + className} style={gridColumns ? { gridTemplateColumns: gridColumns } : {}}>
@@ -34,6 +36,9 @@ export const TwoPhoto = ({ p1, p2, centeredOne = false, centeredTwo = false, ani
     <ScrollAnimation animateIn={animateIn} delay={4 * speed} duration={4 * speed}>
       <img src={p2} className={'image_1 ' + (centeredTwo ? 'centered_image' : '')} />
     </ScrollAnimation>
+    {p3 && <ScrollAnimation animateIn={animateIn} delay={4 * speed} duration={4 * speed}>
+      <img src={p3} className={'image_1 ' + (centeredTwo ? 'centered_image' : '')} />
+    </ScrollAnimation>}
   </div>
 }
 
