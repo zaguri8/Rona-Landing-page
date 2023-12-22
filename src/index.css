@@ -74,20 +74,8 @@ a:hover {
 }
 
 .bullet {
-   list-style:none;
-   padding-inline-start:1ch;
 }
-.bullet::before {
-  content: '';
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  background-size:100%;
-  opacity:0.6;
-  filter: invert(1) sepia(100%) brightness(40%);
-  background-image: url('./bullet.png');
-  transform:translateY(2px) translateX(5px) rotate(180deg);
-}
+
 
 html {
   height:100%;
