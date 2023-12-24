@@ -20,15 +20,14 @@ export default function Topbar() {
         <motion.div className="relative rounded-md w-fit min-w-[230px] h-full md:h-fit p-2 min-h-[52px] grid ml-auto md:w-[98%] md:m-2 md:ml-3" id="nav-items-container">
             <motion.div id="nav-items" className="w-fit flex flex-col gap-2 md:w-full md:grid md:grid-cols-5 mt-2  md:my-auto md:gap-0 ">
                 <a onClick={() => window.innerWidth < 700 && setOpen(false)} className=" text-[black] text-[16px] pr-[48px] md:pr-[55px] hover:text-[black] block w-full " href="#section-1">קצת עליי</a>
-                <a onClick={() => window.innerWidth < 700 && setOpen(false)} className=" text-[black]  text-[16px]  pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-2">מה לומדים בקורס</a>
-                <a onClick={() => window.innerWidth < 700 && setOpen(false)} className=" text-[black] text-[16px]  pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-4">חשוב לדעת</a>
+                <a onClick={() => window.innerWidth < 700 && setOpen(false)} className=" text-[black]  text-[16px]  pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-2">קורס הכנה ללידה</a>
                 <a onClick={() => window.innerWidth < 700 && setOpen(false)} className=" text-[black]  text-[16px] pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-5">ערכת מתנה שלי</a>
-                <a onClick={() => window.innerWidth < 700 && setOpen(false)} className=" text-[black]  text-[16px] pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-7">לקוחות מרוצים</a>
+                <a onClick={() => window.innerWidth < 700 && setOpen(false)} className=" text-[black]  text-[16px] pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-7">המלצות</a>
                 {(open) && <div className="md:hidden mx-auto mt-4 w-full translate-x-[-.5rem]"><ExternalLinks /></div>}
             </motion.div>
             <span className="absolute right-[8px] top-[8px] cursor-pointer" onClick={() => setOpen((o) => !o)}>
-                <img width={20} height={20} src={menu} />
-                <span className="text-[12px] translate-y-[2px] block">{open ? "סגור" : 'ניווט'}</span>
+                <img width={30} height={30} src={menu} className="translate-y-[4px]" />
+                <span className="text-[12px] translate-y-[2px] block">{open ? "" : ''}</span>
             </span>
         </motion.div>
     </motion.nav>

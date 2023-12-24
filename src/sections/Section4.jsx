@@ -9,12 +9,16 @@ import moran2 from '../assets/images/certifiicate.jpeg'
 import { TwoPhoto } from "../App"
 
 
+
 const SummeryTextHead = `ערכת המתנה שלי`
 const SummeryText = `
 כל אישה תקבל ממני ערכת מתנה עם מוצרים שווים במיוחד
-*המוצרים בערכה עלולים להשתנות מעת לעת בהתאם למלאי המוצרים 
+`
+const SummeryText15 = `המוצרים בערכה עלולים להשתנות מעת לעת בהתאם למלאי המוצרים. `
+const SummeryText2 = `בסיום הקורס אעביר רשימה מסודרת עבור התיקים שצריך לארגן לחדר לידה ולאשפוז לך ולתינוק.`
+const SummeryText3 = `
 מעוניינת להרשם לקורס שלי?
-או סתם לשמוע עוד פרטים ?לכל שאלה השאירי פרטים - 0549491179
+או סתם לשמוע עוד פרטים? לכל שאלה השאירי פרטים - 0549491179
 `
 const SummeryTextEnd = `
 הקורס הוא פרטי,מועבר ע"י מיילדת מוסמכת בחדר לידה .מורכב ממפגש אחד באורך של כ3 וחצי שעות, שבו אני מגיעה אליכם עד הבית.ההרשמה היא זוגית ,מומלץ לעבור את הקורס סביב שבוע 30 ביחד עם המלווה שישהה לצידך בלידה
@@ -27,10 +31,13 @@ export default function Section4() {
             <TextArea>
                 <img src={gift} width={75} height={75} className=" mx-auto" />
                 {/* <b className="text-[22px]">{SummeryTextHead}</b> */}
-                <p className="text-[18px]">{SummeryText}</p>
-                <hr className="my-4" />
-                <b id="section-6">לסיכום מה צריך לדעת?</b>
-                <p className="text-[18px]">{SummeryTextEnd}</p>
+                <p className="text-[18px] font-bold">{SummeryText}</p>
+                <li className="text-[16px] text-center w-fit mx-auto">{SummeryText15}</li>
+                <li className="text-[16px] text-center w-fit mx-auto">{SummeryText2}</li>
+                <br />
+                <b>
+                    <p className="text-[18px]">{SummeryText3}</p>
+                </b>
             </TextArea>
         </GenericSection>
         <TwoPhoto
