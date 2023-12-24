@@ -47,7 +47,7 @@ const toListItem = (string) => <li className="text-start py-[2px] bullet">{strin
 const Title1 = `במה נתמקד ?`
 const Title2 = `מה תלמדי בקורס ?`
 export default function Section2() {
-    return <GenericSection className=" bg-[var(--second-brown)] flex items-center justify-center">
+    return <GenericSection className=" bg-[var(--second-brown)] flex items-center justify-center" id={'section-2'}>
         <TextArea className="text-[17px]">
             {/* <h2 className="text-[2rem] pl-[.5rem] pb-6" id="section-2"> {Title1} </h2> */}
 
