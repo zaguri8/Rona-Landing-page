@@ -40,10 +40,10 @@ export default function Topbar() {
             }}
             className="relative rounded-md w-fit min-w-[230px] h-full md:h-fit p-2 min-h-[52px] grid ml-auto md:w-[98%] md:m-2 md:ml-3" id="nav-items-container">
             <motion.div id="nav-items" className="w-fit flex flex-col gap-2 md:w-full md:grid md:grid-cols-4 mt-2  md:my-auto md:gap-0 ">
-                <a onClick={onMenuItemClick} className=" text-[black] text-[16px] pr-[48px] md:pr-[55px] hover:text-[black] block w-full " href="#section-1">קצת עליי</a>
-                <a onClick={onMenuItemClick} className=" text-[black]  text-[16px]  pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-2">קורס הכנה ללידה</a>
-                <a onClick={onMenuItemClick} className=" text-[black]  text-[16px] pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-5">ערכת מתנה שלי</a>
-                <a onClick={onMenuItemClick} className=" text-[black]  text-[16px] pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-7">המלצות</a>
+                <a onClick={onMenuItemClick} className=" text-[black] font-bold text-[18px] pr-[48px] md:pr-[55px] hover:text-[black] block w-full " href="#section-1">קצת עליי</a>
+                <a onClick={onMenuItemClick} className=" text-[black]  font-bold text-[18px]  pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-2">קורס הכנה ללידה</a>
+                <a onClick={onMenuItemClick} className=" text-[black]  font-bold text-[18px] pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-5">ערכת המתנה שלי</a>
+                <a onClick={onMenuItemClick} className=" text-[black]  font-bold text-[18px] pr-[48px] md:pr-[55px] hover:text-[black] block w-max" href="#section-7">המלצות</a>
                 {(open) && <div className="md:hidden mx-auto mt-4 w-full translate-x-[-.5rem]"><ExternalLinks /></div>}
             </motion.div>
             <span className="absolute right-[8px] top-[8px] cursor-pointer" onClick={(e) => { e.stopPropagation(); setOpen((o) => !o) }}>

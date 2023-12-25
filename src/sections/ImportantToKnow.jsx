@@ -74,7 +74,7 @@ export default function ImpotantToKnow() {
                 </div>
             </div>
             <br />
-            <div className="w-full flex flex-col justify-start  lg:flex-row gap-2">
+            <div className="w-full flex flex-col justify-start  gap-2 lg:w-[50%]">
                 <li className="text-[14px] grow-[1] text-start pl-0">באחריות הנרשמת בלבד לוודא מול המבטח את התנאים אשר קיימים אצלה בסל ההיריון.</li>
                 <li className="text-[14px] grow-[1] text-start pl-0">במידת הצורך תשלח אלייך תעודת ההסמכה שלי יחד עם מספר רישיון מיילדותי.</li>
                 <li className="text-[14px] grow-[1] text-start pl-0">התכנים אשר יועברו בקורס אינם מחליפים יעוץ רפואי .</li>
