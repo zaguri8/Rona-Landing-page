@@ -2,7 +2,7 @@ import Section1 from './sections/Section1'
 import Section2 from './sections/Section2'
 import SectionWrapper from './sections/SectionWrapper'
 import moran from './assets/images/moran_2.jpeg'
-import moran2 from './assets/images/moran_7_showcase.jpeg'
+import moran2 from './assets/images/moran_1.jpeg'
 import moran3 from './assets/images/moran_4_showcase.jpeg'
 
 import Section1p5 from './sections/Section1.5'
@@ -61,7 +61,7 @@ function App() {
       </ScrollAnimation>
       <Section2 />
       <ImpotantToKnow />
-      <TwoPhoto p1={moran2} p2={moran3} />
+      <TwoPhoto p1={moran2} className='gap-2 m-[20px]' p2={moran3} />
       <Section4 />
       <ReferralsSlider />
       <GenericSection className='bg-[var(--main-brown)]'>

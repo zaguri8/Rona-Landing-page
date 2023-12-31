@@ -3,7 +3,7 @@ import instagram from '../assets/images/instagram.svg'
 import whatsapp from '../assets/images/whatsapp.png'
 import React from 'react'
 
-const Links = [
+export const Links = [
     { link: "https://www.tiktok.com/@ronaazarya_midwife?_t=8htoZNvbFlR&_r=1", icon: tiktok },
     { link: "https://wa.link/fzb672", icon: whatsapp },
     { link: "https://instagram.com/ronaazarya_midwife?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr", icon: instagram },

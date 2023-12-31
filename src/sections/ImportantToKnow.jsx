@@ -9,7 +9,7 @@ export default function ImpotantToKnow() {
     return <GenericSection className="bg-[var(--main-pink)]">
         <TextArea className="lg:w-[90%] ">
             <div className="flex flex-col items-center justify-center" id="section-4">
-                <p className="text-[2rem]">מה חשוב לדעת</p>
+                <p className="text-[2rem]">מה חשוב לדעת ?</p>
             </div>
             <br />
             <div className="important-to-know text-center">
@@ -17,14 +17,14 @@ export default function ImpotantToKnow() {
                 <div className="flex flex-col items-center justify-center">
                     <img src={bottle} width={60} />
                     <b>מתווה הקורס</b>
-                    <span className="text-[17px]">הקורס הוא פרטי,מועבר באופן ישיר ע"י רונה
-                        מיילדת מוסמכת בחדר לידה .</span>
+                    <span className="text-[17px]">הקורס הוא פרטי, מועבר באופן ישיר ע"י רונה
+                        מיילדת מוסמכת בחדר לידה.</span>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <img src={bottle} width={60} />
                     <b>מבנה הקורס</b>
                     <span className="text-[17px]">
-                        הקורס מורכב ממפגש אחד באורך של כ3-4 שעות,
+                        הקורס מורכב ממפגש אחד באורך של כ 4 - 3 שעות,
                         מומלץ לשריין מקום בקורס מבעוד מועד החל משבוע 20.
                     </span>
                 </div>
@@ -34,23 +34,15 @@ export default function ImpotantToKnow() {
                     <b className="text-[18px]">מתי מומלץ לעבור את הקורס?</b>
                     <span className="text-[17px]">
                         סביב שבוע 30 להריון
-                        ועד רגע הלידה .
+                        ועד רגע הלידה.
                     </span>
                 </div>
 
+              
                 <div className="flex flex-col items-center justify-center">
                     <img src={bottle} width={60} />
                     <b className="text-[18px]"> עם מי נרשמים?</b>
-                    <span className="text-[17px]">
-                        ההרשמה לקורס היא זוגית,כל יולדת תבחר את המלווה שלה
-                        מומלץ לעבור את הקורס יחד עם המלווה שישהה לצידך בלידה.
-                    </span>
-                </div>
-
-                <div className="flex flex-col items-center justify-center">
-                    <img src={bottle} width={60} />
-                    <b className="text-[18px]"> עם מי נרשמים?</b>
-                    <span className="text-[17px]">ההרשמה לקורס היא זוגית,כל יולדת תבחר את המלווה שלה
+                    <span className="text-[17px]">ההרשמה לקורס היא זוגית, כל יולדת תבחר את המלווה שלה, 
                         מומלץ לעבור את הקורס יחד עם המלווה שישהה לצידך בלידה.
                     </span>
                 </div>
@@ -67,9 +59,9 @@ export default function ImpotantToKnow() {
                     <img src={bottle} width={60} />
                     <b className="text-[18px]">מה העלות ?</b>
                     <span className="text-[17px]">
-                        1400₪
+                    ₪1400
                         עם אפשרות לתשלום במזומן/העברה בנקאית וגם בביט.
-                        בסיום הקורס תופק על ידי חשבונית מס -אותה ניתן להגיש לקופת החולים/ביטוחים פרטיים ולקבל החזר של עד 75% בהתאם לתנאי הביטוח.
+                        בסיום הקורס תופק על ידי חשבונית מס - אותה ניתן להגיש לקופת החולים/ביטוחים פרטיים ולקבל החזר של עד 75% בהתאם לתנאי הביטוח.
                     </span>
                 </div>
             </div>
