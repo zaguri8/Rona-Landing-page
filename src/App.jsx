@@ -68,7 +68,7 @@ function App() {
         <br />
         <ExternalLinks />
         <br />
-        <div className='p-2 mx-auto w-fit'>© 2023 כל הזכויות שמורות לרונה עזריה</div>
+        <div className='p-2 mx-auto w-fit'>© 2024 כל הזכויות שמורות לרונה עזריה</div>
       </GenericSection>
     </SectionWrapper>
   </>
