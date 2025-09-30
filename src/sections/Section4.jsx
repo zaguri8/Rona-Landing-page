@@ -36,7 +36,7 @@ export default function Section4() {
                 <li className="text-[16px] text-center mx-auto w-fit">{SummeryText15}</li>
                 <li className="text-[16px] text-center mx-auto w-fit ">{SummeryText2}</li>
                 <br/>
-                <img src={moran4} width={300} height={300} className=" mx-auto" />
+                <img src={moran4} width={300} height={300} className=" mx-auto" style={{borderRadius:'.5rem'}} />
 
                 <br />
                 <p onClick={() => window.open(Links[1].link)} className="text-[22px] bg-[#D0B8AC] text-white font-[100] w-fit min-w-[200px] mx-auto text-center p-[4px] cursor-pointer">{SummeryText3}</p>
