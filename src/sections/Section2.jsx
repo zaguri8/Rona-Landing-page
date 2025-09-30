@@ -53,7 +53,6 @@ export default function Section2() {
       id={"section-2"}
     >
       <TextArea className="text-[17px]">
-        {/* <h2 className="text-[2rem] pl-[.5rem] pb-6" id="section-2"> {Title1} </h2> */}
         <h2 className="text-[2rem] pl-[.5rem] pb-6 " id="section-3">
           {" "}
           {Title2}{" "}
