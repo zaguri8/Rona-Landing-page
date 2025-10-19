@@ -39,7 +39,7 @@ const DayAfter = [
   "משכב לידה - איך מתמודדים עם הסטטוס החדש ומה חשוב להכיר בתקופה הזאת.",
   "צהבת יילודים - מה זה אומר.",
 ];
-const Etc = `אני זמינה בשבילך באופן פרטי גם בסיום הקורס, לליווי והכוונה בכל מה שתצטרכו.`;
+const Etc = `זמינה בשבילך באופן פרטי... בכל מה שתצטרכי במקום תצטרכו`;
 
 const toArray = (items) => Children.toArray(items);
 const toListItem = (string) => <li className="text-start py-[2px] bullet">{string}</li>;

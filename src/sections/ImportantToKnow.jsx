@@ -9,7 +9,7 @@ export default function ImpotantToKnow() {
     return <GenericSection className="bg-[var(--main-pink)]">
         <TextArea className="lg:w-[90%] ">
             <div className="flex flex-col items-center justify-center" id="section-4">
-                <p className="text-[2rem]">מה חשוב לדעת ?</p>
+                <p className="text-[2rem]">איך זה עובד?</p>
             </div>
             <br />
             <div className="important-to-know text-center">

@@ -6,8 +6,8 @@ import rona from '../assets/images/rona.png'
 
 const Welcome1 =`היי לך, מזל טוב ( :`
 const Welcome2 = `איזה כיף שאת כאן ומתעניינת בקורס הכנה ללידה שלי.`
-const Welcome3 = `הקורס הינו פרטי ומורכב ממפגש אחד ישר ולעניין`
-const Welcome4 = `שמסכם את הכל ובעיקר ייתן לך ולמלווה שלך את כל הכלים הנדרשים לחווית לידה הכי טובה שאפשר`
+const Welcome3 = `הקורס הינו פרטי ומורכב ממפגש אחד ישר ולעניין.`
+const Welcome4 = `שמסכם את הכל ובעיקר ייתן לך ולמלווה שלך את כל הכלים הנדרשים לחווית לידה הכי טובה שאפשר.`
 const Welcome5 = `אז המון בהצלחה, מחכה לך.`
 export default function Section1p5() {
     return <GenericSection

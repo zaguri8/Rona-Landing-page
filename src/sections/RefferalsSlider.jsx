@@ -36,7 +36,7 @@ export default function ReferralsSlider() {
     }, [])
 
     return <GenericSection className="bg-[var(--second-brown)] text-[black] my-auto">
-        <b className="font-[Michal] text-[32px]" id="section-7">לקוחות מרוצים</b>
+        <b className="font-[Michal] text-[32px]" id="section-7">יולדות מספרות</b>
         <RefferalSlide key={currentRef} content={refferals[currentRef]} />
     </GenericSection>
 

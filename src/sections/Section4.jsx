@@ -19,7 +19,6 @@ const SummeryText = `
 כל אישה תקבל ממני ערכת מתנה עם מוצרים שווים במיוחד
 `
 const SummeryText15 = `המוצרים בערכה עלולים להשתנות מעת לעת בהתאם למלאי המוצרים. `
-const SummeryText2 = `בסיום הקורס אעביר רשימה מסודרת עבור התיקים שצריך לארגן לחדר לידה ולאשפוז לך ולתינוק.`
 const SummeryText3 = `לתיאום הכנה ללידה`
 const SummeryTextEnd = `
 הקורס הוא פרטי,מועבר ע"י מיילדת מוסמכת בחדר לידה .מורכב ממפגש אחד באורך של כ3 וחצי שעות, שבו אני מגיעה אליכם עד הבית.ההרשמה היא זוגית ,מומלץ לעבור את הקורס סביב שבוע 30 ביחד עם המלווה שישהה לצידך בלידה
@@ -34,7 +33,6 @@ export default function Section4() {
                 {/* <b className="text-[22px]">{SummeryTextHead}</b> */}
                 <p className="text-[18px] font-bold">{SummeryText}</p>
                 <li className="text-[16px] text-center mx-auto w-fit">{SummeryText15}</li>
-                <li className="text-[16px] text-center mx-auto w-fit ">{SummeryText2}</li>
                 <br/>
                 <img src={moran4} width={300} height={300} className=" mx-auto" style={{borderRadius:'.5rem'}} />
 
