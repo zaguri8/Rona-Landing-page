@@ -15,9 +15,7 @@ import { Links } from "./ExternalLinks"
 
 
 const SummeryTextHead = `ערכת המתנה שלי`
-const SummeryText = `
-כל אישה תקבל ממני ערכת מתנה עם מוצרים שווים במיוחד
-`
+const SummeryText = `בסיום הקורס כל אישה תקבל ממני ערכת מתנה + קובץ מסכם של החומר.`
 const SummeryText15 = `המוצרים בערכה עלולים להשתנות מעת לעת בהתאם למלאי. `
 const SummeryText3 = `לתיאום הכנה ללידה`
 const SummeryTextEnd = `
