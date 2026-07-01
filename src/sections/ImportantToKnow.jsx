@@ -33,7 +33,7 @@ export default function ImpotantToKnow() {
                     <img src={bottle} width={60} />
                     <b className="text-[18px]">מתי מומלץ לעבור את הקורס?</b>
                     <span className="text-[17px]">
-                        סביב שבוע 30 להריון
+                        סביב שבוע 34 להריון
                         ועד רגע הלידה.
                     </span>
                 </div>
